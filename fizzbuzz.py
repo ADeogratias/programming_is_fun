@@ -112,13 +112,18 @@ fizzbuzz_approach4()
 
 # The above implementation is slightly improved but we can still do better.
 
+# Created a dictionary to help us loop through any multiple we might be interested
+# it, and the good thing about this implementation is that you do not have to change any
+# code in case you add more multiples to the game. You just have to add the dictionary and you are done with any additional multiple.
 
 def fizzbuzz_approach5():
+    multiples_dict = {3:"fizz", 5:"buzz", 7:"bazz"}
 
     for i in range(1 ,101):
         output = ""
-        if i%3==0: output += "fizz"
-        if i%5==0: output += "buzz"
+        for j in multiples_dict:
+            if i%j==0: output += multiples_dict[j]
+
         if output == "": output = i
 
         print(output)
