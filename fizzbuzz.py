@@ -56,4 +56,37 @@ def fizzbuzz_naive_approach2():
 
     return 0
 
-fizzbuzz_naive_approach2()
+# fizzbuzz_naive_approach2()
+
+# the naive approach is fixed and it is working, but it is very uggly.
+# such codes are difficult to read and maintain.
+
+
+# We are going to try and improve the codes implemented above
+
+def fizzbuzz_approach3():
+
+    for i in range(1, 101):
+        # check if both fizz and buzz
+        if i%3 == 0 and i%5 == 0:
+            print('fizzbuzz')
+
+        # otherwise is it just a multiple of 3
+        elif i%3 == 0:
+            print('fizz')
+
+        # or just a multiple of 5
+        elif i%5 == 0:
+            print('buzz')
+
+        # Then just outupt the number
+        else:
+            print(i)
+
+    return 0
+
+fizzbuzz_approach3()
+
+# The implementation above is working, but still has more room for improvement
+
+# Lets still improve it.
