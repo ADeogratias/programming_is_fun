@@ -131,3 +131,6 @@ def fizzbuzz_approach5():
     return 0
 
 fizzbuzz_approach5()
+
+# We are now satisfied with the the current approach
+# Thank you for walking through the different fizzbuzz approaches
