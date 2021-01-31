@@ -85,8 +85,44 @@ def fizzbuzz_approach3():
 
     return 0
 
-fizzbuzz_approach3()
-
+# fizzbuzz_approach3()
 # The implementation above is working, but still has more room for improvement
 
-# Lets still improve it.
+# Lets still improve the above implementation
+
+# wondering why improve this if it is working?
+
+# Well, lets supposed we want to change and work with multiples of 7 and 9
+# then you would have to change everywhere in the codes where there is 3 and 5
+
+def fizzbuzz_approach4():
+
+    for i in range(1 ,101):
+        output = ""
+        if i%3==0: output += "fizz"
+        if i%5==0: output += "buzz"
+
+        if output == "": output = i
+
+        print(output)
+
+    return 0
+
+fizzbuzz_approach4()
+
+# The above implementation is slightly improved but we can still do better.
+
+
+def fizzbuzz_approach5():
+
+    for i in range(1 ,101):
+        output = ""
+        if i%3==0: output += "fizz"
+        if i%5==0: output += "buzz"
+        if output == "": output = i
+
+        print(output)
+
+    return 0
+
+fizzbuzz_approach5()
