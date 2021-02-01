@@ -1,6 +1,6 @@
 # programming is fun :)
 
-# We are going to try and code the famous fizzbuzz game. An easy coding interview question
+# We are going to try and code the famous fizzbuzz game. An easy coding interview question that was often used by companies to see if a programmer they want to hire really knows how to code.
 
 # It is very famous and we felt like we should consider
 # working on it and trying different approaches to it
@@ -108,11 +108,11 @@ def fizzbuzz_approach4():
 
     return 0
 
-fizzbuzz_approach4()
+# fizzbuzz_approach4()
 
 # The above implementation is slightly improved but we can still do better.
 
-# Created a dictionary to help us loop through any multiple we might be interested
+# We created a dictionary to help us loop through any multiple we might be interested
 # it, and the good thing about this implementation is that you do not have to change any
 # code in case you add more multiples to the game. You just have to add the dictionary and you are done with any additional multiple.
 
