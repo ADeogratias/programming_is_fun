@@ -57,6 +57,7 @@ def valid_ip_approach2(ip):
 
 
 
+# driver code
 
 # ip = ['12.233.11.2',
 #       'asd.adsf.sadf',
@@ -82,7 +83,7 @@ valid_ip_approach2(ip)
 
 
 
-
+# using a built in function
 # def fun(variable):
 #     if (variable.isnumeric() == True):
 #         number = int(variable)
