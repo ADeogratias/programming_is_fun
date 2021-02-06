@@ -1,12 +1,3 @@
-# Test cases
-# // 12.233.11.2
-# // asd.adsf.sadf
-# // asdfadsfadf
-# // 12232.11232.23.32231
-# // 0.0.0.0
-# // 255.255.255.255
-# // 88.990.001123
-
 # We are going to work on the ip address validation algorithm
 
 def valid_ip(ip):
@@ -39,7 +30,7 @@ def valid_ip_approach2(ip):
     testvar = ip.split('.')
     iplen = len(testvar)
 
-    dodgy_octects = []
+    error_octect = []
 
     if iplen != 4:
         print(ip + ' Is is not a valid IP address because it does not have 4 octets \n')
@@ -47,28 +38,22 @@ def valid_ip_approach2(ip):
 
     for i in testvar:
 
-        if not is_octet_Numeric(i):
-            dodgy_octects.append(i)
+        if not i.isnumeric():
+            error_octect.append(i)
             continue
 
         i = int(i)
-        if not is_octect_inRange(i):
-            dodgy_octects.append(i)
+        if not i in range(0, 256):
+            error_octect.append(i)
             continue
 
 
-    if not dodgy_octects:
+    if not error_octect:
         print("Your input ip: '" + ip + "' is a valid ip address \n")
         return
 
-    print("Your dodgy ip part is: " + str(dodgy_octects) )
+    print("Your error ip part is: " + str(error_octect))
     return
-
-def is_octet_Numeric(octect):
-        return octect.isnumeric()
-
-def is_octect_inRange(octect):
-        return octect in range(0, 256)
 
 
 
@@ -86,30 +71,13 @@ def is_octect_inRange(octect):
 #       '12.233.11..2',
 #       '12.233.11.',
 #       '12.233. 11.2']
-# ip = '22a.32.32.22'
+ip = '22a.32.32.22'
 # ip = 'asd.adsf.sadf.sadf'
-ip = '12232.11232.23.32231'
+# ip = '12232.11232.23.32231'
+# ip = '....'
 valid_ip_approach2(ip)
 # for ipad in ip:
 #     valid_ip(ipad)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
