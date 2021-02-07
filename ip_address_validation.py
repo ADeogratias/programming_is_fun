@@ -57,6 +57,38 @@ def valid_ip_approach2(ip):
 
 
 
+# using the try and catch to make things shorter
+
+
+def valid_ip_approach3(ip):
+    testvar = ip.split('.')
+    iplen = len(testvar)
+
+    error_octect = []
+
+    if iplen != 4:
+        print(ip + ' Is is not a valid IP address because it does not have 4 octets \n')
+        return
+
+    for i in testvar:
+
+        try:
+            i = int(i)
+            if not i in range(0, 256):
+                error_octect.append(i)
+                continue
+
+        except ValueError:
+            error_octect.append(i)
+            continue
+
+    if not error_octect:
+        print("Your input ip: '" + ip + "' is a valid ip address \n")
+        return
+
+    print("Your error ip part is: " + str(error_octect))
+    return
+
 # driver code
 
 # ip = ['12.233.11.2',
@@ -72,11 +104,12 @@ def valid_ip_approach2(ip):
 #       '12.233.11..2',
 #       '12.233.11.',
 #       '12.233. 11.2']
-ip = '22a.32.32.22'
+# ip = '#sgd.32.32.22'
+# ip = '22a.32.32.22'
 # ip = 'asd.adsf.sadf.sadf'
 # ip = '12232.11232.23.32231'
 # ip = '....'
-valid_ip_approach2(ip)
+valid_ip_approach3(ip)
 # for ipad in ip:
 #     valid_ip(ipad)
 

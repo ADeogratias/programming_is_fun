@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6eb2ac4-b353-4b8f-b818-2e1b5cc51859" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/programming_is_fun.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ip_address_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ip_address_validation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fizzbuzz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="135" column="65" lean-forward="true" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+            <state relative-caret-position="2970">
+              <caret line="135" column="65" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -24,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ip_address_validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            <state relative-caret-position="857">
+              <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -47,16 +51,6 @@
       <list>
         <option value="$PROJECT_DIR$/fizzbuzz.py" />
         <option value="$PROJECT_DIR$/ip_address_validation.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/programming_is_fun.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -168,7 +162,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612046487084</updated>
       <workItem from="1612046503977" duration="14478000" />
-      <workItem from="1612604899577" duration="10937000" />
+      <workItem from="1612604899577" duration="11707000" />
+      <workItem from="1612712476133" duration="2150000" />
     </task>
     <task id="LOCAL-00001" summary="fizzbuzz naive approach done working, but it is uggly. We are going to improve it.">
       <created>1612083595174</created>
@@ -226,17 +221,45 @@
       <option name="project" value="LOCAL" />
       <updated>1612615469822</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="done though there is room for improvement">
+      <created>1612616096022</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612616096022</updated>
+    </task>
+    <task id="LOCAL-00010" summary="done though there is room for improvement">
+      <created>1612616150492</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612616150492</updated>
+    </task>
+    <task id="LOCAL-00011" summary="done though there is room for improvement">
+      <created>1612616323670</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612616323670</updated>
+    </task>
+    <task id="LOCAL-00012" summary="done though there is room for improvement">
+      <created>1612616616898</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612616616898</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25415000" />
+    <option name="totallyTimeSpent" value="28335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18967828" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14343163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,24 +293,25 @@
     <MESSAGE value="Perfecto!!!" />
     <MESSAGE value="We are going to work on the ip address validation algorithm" />
     <MESSAGE value="showing parts of the ip that are not okay" />
-    <option name="LAST_COMMIT_MESSAGE" value="showing parts of the ip that are not okay" />
+    <MESSAGE value="done though there is room for improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="done though there is room for improvement" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/programming_is_fun$ip_address_validation.coverage" NAME="ip_address_validation Coverage Results" MODIFIED="1612616060358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/programming_is_fun$ip_address_validation.coverage" NAME="ip_address_validation Coverage Results" MODIFIED="1612714867683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/programming_is_fun$fizzbuzz.coverage" NAME="fizzbuzz Coverage Results" MODIFIED="1612109298394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fizzbuzz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="135" column="65" lean-forward="true" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+        <state relative-caret-position="2970">
+          <caret line="135" column="65" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ip_address_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="857">
+          <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
         </state>
       </provider>
     </entry>
